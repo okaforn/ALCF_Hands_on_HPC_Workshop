@@ -3,7 +3,6 @@
 
 NODE_ADDRESS=${1}
 RAPIDS_WORKDIR='~'
-SSH_MULTIPLEX=polaris
 PORT=8881
 PORTD=8787
 #ssh polaris "ps -ef | grep jupyter | grep -v grep | awk -F ' ' '{print \$2}' | xargs kill -9 2>/dev/null; rm ~/jupyter_pol.log" 2>/dev/null
